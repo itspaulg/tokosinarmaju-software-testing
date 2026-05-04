@@ -3,7 +3,10 @@
 [![CI](https://github.com/itspaulg/tokosinarmaju-software-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/itspaulg/tokosinarmaju-software-testing/actions/workflows/ci.yml)
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-10-FF2D20?logo=laravel&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-46%20passed-brightgreen)
+![Tests](https://img.shields.io/badge/tests-81%20passed-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-62.9%25-brightgreen)
+
+
 
 
 Aplikasi inventory & POS sederhana berbasis Laravel 10 untuk Final Project Software Testing.
