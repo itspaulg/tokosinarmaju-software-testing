@@ -19,7 +19,7 @@ jobs:
         with:
           php-version: '8.2'
           extensions: mbstring, pdo, pdo_sqlite, sqlite3, gd, zip, intl, bcmath
-          coverage: none
+          coverage: xdebug
 
       - name: Copy .env
         run: cp .env.example .env
@@ -33,5 +33,5 @@ jobs:
       - name: Set directory permissions
         run: chmod -R 777 storage bootstrap/cache
 
-      - name: Run PHPUnit tests
-        run: php artisan test
+      - name: Run PHPUnit tests with coverage
+        run: php artisan test --coverage
